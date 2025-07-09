@@ -1,11 +1,50 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-	<Welcome />
+  <div class="container">
+    <h1>こばやしのページ</h1>
+    <a href="/index.html"><img src="/turu.JPG" alt="turu" width="200" /></a>
+    <h2>プロフィール</h2>
+    <ul>
+      <li>名前:小林</li>
+      <li>誕生日:06/07</li>
+      <li>場所:日本国,大阪府</li>
+    </ul>
+    <h2>リンク</h2>
+    <ul>
+      <li>
+        Twitter: <a href="https://x.com/atmatjp" target="_blank">@atmatjp</a>
+      </li>
+      <li>
+        Misskey: <a href="https://misskey.io/@atmatjp" target="_blank"
+          >@atmatjp</a
+        >
+      </li>
+      <li>
+        GitHub: <a href="https://github.com/atmatjp" target="_blank">@atmatjp</a
+        >
+      </li>
+      <li>Discord: <a href="">@atmatjp</a></li>
+      <li>
+        Signal: <a
+          href="https://signal.me/#eu/AioTIwZpwpt0UvdXCPsIFgLILKF6qHdGgBC6Mi3QQlyDicnhbHJCzbYTEdgrdI0i"
+          target="_blank">@atmatjp</a
+        >
+      </li>
+      <li>
+        ListenBrainz: <a
+          href="https://listenbrainz.org/user/atmatjp/"
+          target="_blank">@atmatjp</a
+        >
+      </li>
+      <li>
+        Bookmeter: <a href="https://bookmeter.com/home" target="_blank"
+          >@atmatjp</a
+        >
+      </li>
+    </ul>
+    <footer>&copy; 2025 小林</footer>
+  </div>
 </Layout>
